@@ -1,0 +1,4 @@
+[
+    { "name": "PoC1", "implemented": true},
+    { "name": "PoC2", "implemented": false }
+]
