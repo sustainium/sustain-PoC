@@ -51,6 +51,3 @@ Optimized memory usage lowers the overall cost of executing smart contracts, lea
 - **Scalability:** With more efficient memory management, the EVM can handle a larger number of smart contracts simultaneously, improving its scalability.
 
 Memory pooling is a significant enhancement to the EVM, addressing key challenges related to memory usage and transaction fees. Enviora aims to create a more efficient and cost-effective environment for executing smart contracts.
-```
-
-Feel free to adjust any sections as needed. If you have more details to include or want further customization, just let me know!
