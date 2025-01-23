@@ -1,4 +1,4 @@
 [
-    { "name": "PoC1", "implemented": true},
-    { "name": "PoC2", "implemented": false }
+    { "name": "vm/memorypooling", "implemented": true},
+    { "name": "conensus/envio", "implemented": false }
 ]
