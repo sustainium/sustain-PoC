@@ -41,5 +41,3 @@ If an unauthorized validator attempts to sign and broadcast a block, the followi
 The consensus mechanism strictly enforces that only the selected validators can sign a block. If a validator deviates from this protocol, the consensus rules dictate penalties, which might include slashing and banning as mentioned earlier.
 
 By implementing these technical measures, the integrity of the triple-signature scheme is maintained, ensuring that only the designated validators contribute to block confirmation and preventing unauthorized signatures from disrupting the network.
-
-Would you like to dive into any specific part of this process in more detail?
