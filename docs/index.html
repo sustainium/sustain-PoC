@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sustainium PoC Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>sustainium PoC Tracker</h1>
+    <ul id="poc-list"></ul>
+
+    <script>
+        const apiUrl = 'status.json';
+
+        async function fetchPoCs() {
+            try {
+                const response = await fetch(apiUrl);
+                if (response.ok) {
+                    const data = await response.json();
+                    const pocList = document.getElementById('poc-list');
+                    data.forEach(poc => {
+                        const listItem = document.createElement('li');
+                        listItem.textContent = `${poc.name}: ${poc.implemented ? 'Implemented' : 'Not Implemented'}`;
+                        pocList.appendChild(listItem);
+                    });
+                } else {
+                    console.error('Failed to fetch PoC data:', response.statusText);
+                }
+            } catch (error) {
+                console.error('Error:', error);
+            }
+        }
+
+        fetchPoCs();
+    </script>
+</body>
+</html>
