@@ -6,7 +6,8 @@ This repository contains all the Proof of Concept (PoC) implementations for sust
 
 ```
 /PoC-Blockchain-Repo
-    /PoCs
+    /PoC1
+    /PoC2
     /docs
         index.html
         style.css (if needed)
@@ -33,19 +34,19 @@ This repository contains all the Proof of Concept (PoC) implementations for sust
   
 
 ```shell
-git clone https://github.com/your-username/PoC-Blockchain-Repo.git
+git clone https://github.com/sustainium/sustain-PoC.git
 ```
 
 2. **Navigate to the repository:**
   
 
 ```shell
-cd PoC-Blockchain-Repo
+cd sustain-PoC
 ```
 
 ### Running PoCs
 
-Each PoC has its own directory under `PoCs`. To run a specific PoC, navigate to its directory and follow the instructions in its `README.md` file.
+Each PoC has its own directory. To run a specific PoC, navigate to its directory and follow the instructions in its `README.md` file.
 
 ### Web Interface
 
